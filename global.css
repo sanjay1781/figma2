@@ -1,11 +1,33 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-jost: Jost;
+  --font-dm-serif-text: "DM Serif Text";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-6xl: 25px;
+  --font-size-17xl: 36px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslategray: #0d3451;
+  --color-darkgray-100: #a6a6a6;
+  --color-gainsboro: #d9d9d9;
+  --color-gray: rgba(0, 0, 0, 0.27);
+
+  /* Paddings */
+  --padding-8xs: 5px;
+  --padding-mini: 15px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
 }
