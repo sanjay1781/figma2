@@ -10,24 +10,29 @@ body {
   --font-dm-serif-text: "DM Serif Text";
 
   /* font sizes */
-  --font-size-sm: 14px;
-  --font-size-6xl: 25px;
-  --font-size-17xl: 36px;
-  --font-size-xs: 12px;
+  --font-size-sm: 0.88rem;
+  --font-size-13xl-6: 2.04rem;
+  --font-size-mini-3: 0.89rem;
+  --font-size-mini-4: 0.9rem;
+  --font-size-6xl-8: 1.61rem;
+  --font-size-6xl: 1.56rem;
 
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
+  --color-lavender: #e2edff;
   --color-darkslategray: #0d3451;
-  --color-darkgray-100: #a6a6a6;
+  --color-darkgray: #a6a6a6;
   --color-gainsboro: #d9d9d9;
-  --color-gray: rgba(0, 0, 0, 0.27);
+  --color-silver: rgba(189, 189, 189, 0.58);
 
   /* Paddings */
-  --padding-8xs: 5px;
-  --padding-mini: 15px;
+  --padding-7xs-2: 0.33rem;
+  --padding-base-5: 0.97rem;
+  --padding-2xs-3: 0.64rem;
+  --padding-11xl-9: 1.93rem;
 
   /* border radiuses */
-  --br-3xs: 10px;
-  --br-8xs: 5px;
+  --br-2xs-2: 10.2px;
+  --br-2xs-3: 10.3px;
 }
