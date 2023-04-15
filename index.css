@@ -1,9 +1,17 @@
+body{
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+  }
 .desktop-1-child {
   position: absolute;
   top: 112.69rem;
   left: 0;
   background-color: var(--color-darkslategray);
-  width: 90rem;
+  width: 100%;
   height: 17.38rem;
 }
 .follow-us {
@@ -26,8 +34,8 @@
 .facebook-circled-parent {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .facebook-circled-parent {
   gap: 0.31rem;
@@ -218,8 +226,8 @@
   background-color: var(--color-white);
   border: 1px solid var(--color-darkslategray);
   width: 7.73rem;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   color: var(--color-darkslategray);
 }
 .desktop-1-child4 {
@@ -318,8 +326,8 @@
   flex-direction: row;
   padding: 0.32rem 0.97rem;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .design-wrapper,
 .html-wrapper,
@@ -338,8 +346,8 @@
   flex-direction: row;
   padding: 0.32rem 0.97rem;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .lpa {
   top: 34.77rem;
@@ -400,8 +408,8 @@
   flex-direction: row;
   padding: 0.32rem 0.97rem;
   box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-jost);
 }
 .illustrator-wrapper,
@@ -670,7 +678,7 @@
   top: 0;
   left: 0;
   background-color: var(--color-darkslategray);
-  width: 90rem;
+  width: 100%;
   height: 7.38rem;
 }
 .about-us {
@@ -738,8 +746,8 @@
   display: flex;
   flex-direction: row;
   padding: 0.25rem 0.94rem;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   color: var(--color-darkslategray);
 }
 .about-us-parent {
@@ -756,7 +764,7 @@
   top: 7.38rem;
   left: 0;
   background-color: var(--color-lavender);
-  width: 90rem;
+  width: 100%;
   height: 3.13rem;
 }
 .business,
@@ -830,3 +838,4 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+
